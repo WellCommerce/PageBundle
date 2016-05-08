@@ -10,16 +10,16 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\PageBundle\Context\Front;
+namespace WellCommerce\Bundle\PageBundle\Storage\Front;
 
 use WellCommerce\Bundle\PageBundle\Entity\PageInterface;
 
 /**
- * Interface PageContextInterface
+ * Interface PageStorageInterface
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-interface PageContextInterface
+interface PageStorageInterface
 {
     /**
      * @param PageInterface $page
